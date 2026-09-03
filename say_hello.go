@@ -1,5 +1,7 @@
 package say_hello
 
+import "fmt"
+
 func SayHello(name string) string {
-	return "Hello" + name
+	return fmt.Sprintf("Hello, %s!", name)
 }
